@@ -1,0 +1,99 @@
+好 ?，我帮你把刚才的 4 个阶段细化成一个 6 周学习计划（适合大二学业负担下的节奏，每天大约 1–2 小时，周末可多一些）。
+计划里我会标出每天“看 + 写”的任务，做到有理论、有实践。
+
+?
+
+6 周 C++ 学习计划
+
+第 1 周：语法衔接与差异
+
+目标：熟悉 C 与 C++ 的基本不同，避免停留在 “C with classes”。
+	?	Day 1
+	?	看：C++ 基本程序结构，iostream，cin/cout
+	?	写：把一个 C 的输入输出程序（如成绩统计）改写成 cin/cout 版。
+	?	Day 2
+	?	看：引用（int &ref = x;）与指针的区别。
+	?	写：写函数 swap，分别用指针和引用实现。
+	?	Day 3
+	?	看：函数重载、默认参数。
+	?	写：实现 max() 的多个重载（int, double, string）。
+	?	Day 4
+	?	看：命名空间。
+	?	写：自己写一个 namespace math { int add(int, int); }。
+	?	Day 5–7（周末练习）
+	?	小练习：写一个 简单计算器（加减乘除），用函数重载和 cin/cout。
+
+?
+
+第 2–3 周：面向对象编程（OOP 基础）
+
+目标：从过程式转到 OOP 思维。
+	?	第 2 周
+	?	Day 1–2：类与对象定义，构造函数、析构函数。
+	?	写：定义 Student 类，含学号、姓名、成绩，构造时初始化，析构时打印“销毁”。
+	?	Day 3–4：成员函数、静态成员。
+	?	写：给 Student 类加 getGPA() 函数，统计所有学生平均分用 static。
+
+
+    
+	?	Day 5–7：封装与访问控制。
+	?	写：模拟银行账户类 Account，余额私有，只能通过 deposit 和 withdraw 修改。
+	?	第 3 周
+	?	Day 1–2：继承。
+	?	写：Shape 基类，Circle、Rectangle 子类，实现 area()。
+	?	Day 3–4：多态、虚函数。
+	?	写：用 Shape* 存放不同图形，循环调用 area()。
+	?	Day 5：纯虚函数 & 抽象类。
+	?	写：Animal 抽象类，Dog、Cat 实现 speak()。
+	?	Day 6–7：运算符重载。
+	?	写：为 Complex 类重载 +、<<。
+
+?
+
+第 4–5 周：现代 C++ 风格
+
+目标：掌握 STL、智能指针、lambda，进入现代写法。
+	?	第 4 周
+	?	Day 1–2：string、vector、map、set 基本用法。
+	?	写：统计一段文字的单词频率（用 map<string,int>）。
+	?	Day 3：迭代器与范围 for。
+	?	写：用 for(auto &x : v) 遍历 vector。
+
+
+	?	Day 4：auto / decltype / nullptr。
+	?	写：用 auto 简化循环。
+	?	Day 5–7：STL 练习：
+	?	写：重写 DFS/BFS，用 vector 和 queue 替代自己写的链表队列。
+
+	
+	?	第 5 周
+	?	Day 1–2：智能指针 (unique_ptr, shared_ptr)。
+	?	写：用 unique_ptr 管理链表节点，析构时自动释放。
+	?	Day 3–4：RAII 思想。
+	?	写：文件包装类 FileWrapper，构造时打开，析构时关闭。
+	?	Day 5–6：lambda 表达式。
+	?	写：用 sort 和 lambda 给字符串数组排序（按长度）。
+	?	Day 7：复习整合。
+
+?
+
+第 6 周：进阶与小项目
+
+目标：进入模板、异常，完成一个 OOP 小项目。
+	?	Day 1–2：函数模板、类模板。
+	?	写：实现 Stack<T>。
+	?	Day 3：异常处理。
+	?	写：除法函数，分母为 0 时抛出异常。
+	?	Day 4–7（小项目）
+	?	选一个你感兴趣的小项目：
+	?	学生信息管理系统（OOP + STL + 文件读写 + 异常处理）
+	?	简易图书馆系统（书籍类、用户类，借书还书）
+	?	迷宫 BFS/DFS 可视化（用类管理地图，STL 容器存储）
+
+?
+
+长期进阶
+	?	每天刷 1–2 道 LeetCode，强制自己用 C++ STL。
+	?	同时读《Effective C++》，每周 2–3 条经验规则。
+
+?
