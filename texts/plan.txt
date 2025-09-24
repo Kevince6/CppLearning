@@ -58,19 +58,23 @@
 	?	写：统计一段文字的单词频率（用 map<string,int>）。
 	?	Day 3：迭代器与范围 for。
 	?	写：用 for(auto &x : v) 遍历 vector。
-
-
 	?	Day 4：auto / decltype / nullptr。
 	?	写：用 auto 简化循环。
 	?	Day 5–7：STL 练习：
 	?	写：重写 DFS/BFS，用 vector 和 queue 替代自己写的链表队列。
-
+Week 4:
+	Practice:
+	 1.用map统计单词频率
+	 2.学习delctype,自动获取类型
+	 3.用C++相应STL重写DFS/BFS.
 	
+
 	?	第 5 周
 	?	Day 1–2：智能指针 (unique_ptr, shared_ptr)。
 	?	写：用 unique_ptr 管理链表节点，析构时自动释放。
 	?	Day 3–4：RAII 思想。
 	?	写：文件包装类 FileWrapper，构造时打开，析构时关闭。
+	++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
 	?	Day 5–6：lambda 表达式。
 	?	写：用 sort 和 lambda 给字符串数组排序（按长度）。
 	?	Day 7：复习整合。
