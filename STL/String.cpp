@@ -34,6 +34,7 @@ int main()
     {
         cout << "Apple locates in:" << pos << endl;
         cout << "Apple locates in:" << rpos << endl;
+        cout << name.find("dgdy") << endl;
     }
 
     name.replace(pos, 5, "Banana");
