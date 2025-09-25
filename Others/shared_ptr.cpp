@@ -27,8 +27,10 @@ int main()
 {
     auto p1 = make_shared<A>();
     auto p2 = make_shared<B>();
+    
     p1->ptr_B = p2;
     p2->ptr_A = p1; // 离开main函数作用域时候，若采用shared_ptr指针，A,B的管理计数由2减到1，不为0.堆上A，B的内存不会被释放，造成内存泄露事故。
+
 
     auto p3 = make_shared<int>(35);
     weak_ptr<int> p4 = p3;
