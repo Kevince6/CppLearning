@@ -19,6 +19,7 @@ void Calculation(string s, string tofind, map<string, int> &counter)
         pos = s.find(tofind);
     }
 }
+
 int main()
 {
     string sentence = "I like the apple.The apple is the most nutrient one among varieties of food.";

@@ -18,6 +18,6 @@ int main()
     shared_ptr<int> sp1 = make_shared<int>(28);
     shared_ptr<int> sp2 = sp1;
     cout << *sp1 << ' ' << *sp2 << endl;
-    cout << "Use count:" << sp1.use_count() << endl;  //统计sp1管理的内存由几个指针共同管理。
+    cout << "Use count:" << sp1.use_count() << endl; // 统计sp1管理的内存由几个指针共同管理。
     return 0;
 }
